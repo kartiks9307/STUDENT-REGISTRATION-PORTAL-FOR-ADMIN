@@ -1,0 +1,63 @@
+<!-- Html Document Begins-->
+<!DOCTYPE html>
+<html>
+ <head>
+           <meta charset="UTF-8" />
+           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>
+      Student Registration Form
+</title>
+</head>
+<style>
+       body  
+       {
+        background-image: url('registration.jpg');
+        height: 100%;
+        background-position: 10% 25%;
+        background-size: cover;
+       }
+</style>
+<body>
+        <div style="margin: auto;width: 30%;">
+            <form action="addStudent.jsp">
+             <h2>Student Registration Form</h2>
+             <p>Fill in this form to register</p>
+             <br>
+             
+             <label><b>Set Unique Id:</b></label>
+             <input type="text" placeholder="Unique Id" name="uid" required>
+             <br><br>
+             
+             <label><b>Enter Name:</b></label> 
+             <input type="text" placeholder="Enter name" name="name" required>
+             <br><br>
+             
+             <label><b>E-mail:</b></label>
+             <input type="email" placeholder="Enter your e-mail" name="email" required>
+             <br><br>
+             
+             <label><b>Date of Birth:</b></label>
+             <input type="date" name="dob" required>
+             <br><br>
+             
+             <label><b>Gender:</b></label>
+             <input type="text" placeholder="Gender" name="gender" required>
+             <br><br>
+             
+             <label><b>Course:</b></label>
+             <div style="margin-left: 60px;">
+                <input type="checkbox" value="Java Full Stack" name="course">Java Full Stack <br>
+                <input type="checkbox" value="Python Full Stack" name="course">Python Full Stack <br>
+                <input type="checkbox" value="Mern Stack" name="course">Mern Stack <br>
+             </div><br>
+           
+             <label><b>Duration</b></label>
+             <input type="text" placeholder="Duration" name="duration" required>
+             <br><br>   
+             
+             <input type="submit" value="Register" style="margin-left: 80px;"> 
+          </form>
+     </div>
+</body>
+</html>

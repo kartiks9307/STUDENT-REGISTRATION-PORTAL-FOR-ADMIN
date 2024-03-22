@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enter Student ID</title>
+<style>
+
+        body 
+        {
+         background-image: url('searchEdit.png');
+         background-position: 10% 25%;
+         background-size: cover;
+         font-family: Arial, sans-serif;
+         display: grid;
+         place-items: center;
+         min-height: 75vh;
+         }
+       form 
+       {
+        margin: 20px;
+        padding: 20px;
+        border: 5px solid #ccc;
+        border-radius: 5px;
+        width: 300px;
+       }
+       input[type="text"] 
+       {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 5px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+       }
+       input[type="submit"] 
+       {
+        background-color: #ccc;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+       }
+</style>
+</head>
+
+<body>
+    <form action="edit.jsp" method="get">
+        <label for="studentId">Enter Student ID:</label>
+        <input type="text" id="uid" name="uid" placeholder="Student ID" required>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

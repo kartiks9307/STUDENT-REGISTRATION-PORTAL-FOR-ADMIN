@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="STUDENT REGISTRATION PORTAL FOR ADMIN">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="STUDENT_REGISTRATION_PORTAL_FOR_ADMIN"/>
+        <property name="java-output-path" value="/STUDENT REGISTRATION PORTAL FOR ADMIN/build/classes"/>
+    </wb-module>
+</project-modules>
